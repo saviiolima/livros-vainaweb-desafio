@@ -1,0 +1,61 @@
+.boxDoados {
+    width: 53vw;
+    height: 5vh;
+    margin-top: 15px;
+    margin-left: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+.boxLivros{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 23vw;
+    margin: 0 auto;
+    padding: 80px;
+    border: 1px solid #005695; 
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.boxForms{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    img{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+        font-weight: 400;
+        align-items: center;
+        color: black;
+    }
+}
+
+.boxButton{
+        background-color: #005695;
+        width: 10vw;
+        height: 4vh;
+        border-radius: 10px;
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            align-items: center;
+            color: white;
+        }
+}
