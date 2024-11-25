@@ -1,0 +1,26 @@
+footer{
+    height: 30vh;
+}
+
+.boxMedia{
+    background-color: rgba(0, 86, 149, 1);
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxLayout{
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 12vh;
+    background-color: rgba(35, 32, 32, 1);
+    p{
+        font-weight: 700;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.86);
+    }
+}
