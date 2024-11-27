@@ -1,17 +1,25 @@
 footer{
     height: 30vh;
+    color: white;
 }
 
 .boxMedia{
-    background-color: rgba(0, 86, 149, 1);
     height: 19vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(0, 86, 149, 1);
+    nav{
+        display: flex;
+        width: 15vw;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
 
 .boxLayout{
-    border: solid;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +29,6 @@ footer{
     p{
         font-weight: 700;
         font-size: 15px;
-        color: rgba(255, 255, 255, 0.86);
+        color: white;
     }
 }
