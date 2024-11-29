@@ -59,3 +59,31 @@ input{
   }
 }
 }
+
+@media (max-width: 1170px) {
+  .boxLogo{
+    border: solid 2px red;
+    h1{
+      font-size: 1.7vw;
+    }
+    img{
+      width: 5vw;
+    }
+  }
+
+  .boxNav{
+    border: solid 2px blue;
+    ul{
+      font-size: 1.6vw;
+    }
+  }
+
+  .boxDiv{
+    width: 20vw;
+    input{
+      &::placeholder{
+        font-size: 1.3vw;
+      }
+    }
+    }
+}

@@ -17,26 +17,25 @@ export default function Inicio() {
           </div>
           <section className={S.boxCard}>
             <article>
-              <img src={circle} alt="" />
+              <img src={circle} alt="circulo de pessoas" />
               <p>
-                {" "}
                 Oferece livros a quem não tem acesso, ajudando a reduzir a
                 exclusão social.
               </p>
             </article>
             <article>
-              <img src={manbook} alt="" />
+              <img src={manbook} alt="homem com livro na mão" />
               <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
             </article>
             <article>
-              <img src={hands} alt="" />
+              <img src={hands} alt="uma mão fechada" />
               <p>
                 Fornece conhecimento e inspiração, permitindo que indivíduos
                 transformem suas vidas.
               </p>
             </article>
             <article>
-              <img src={balance} alt="" />
+              <img src={balance} alt="balança da justiça" />
               <p>
                 Garante que todos, independentemente de sua condição, tenham
                 oportunidades de aprendizado.

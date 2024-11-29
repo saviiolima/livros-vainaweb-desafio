@@ -1,18 +1,18 @@
 import S from "./querodoar.module.scss";
-import bookdoados from "../../assets/img/bookdoados.png";
+import bookdoar from "../../assets/img/bookdoar.png";
 
 export default function QueroDoar() {
   return (
     <main>
       <section className={S.boxPrincipal}>
-        <section className={S.boxDoados}>
+        <section className={S.boxDoar}>
           <h2>
             Por favor, preencha o formulário com suas informações e as
             informações do Livro
           </h2>
           <form action="">
             <div>
-              <img src={bookdoados} alt="icone de um livro" />
+              <img src={bookdoar} alt="icone de um livro" />
               <h3>Informações do Livro </h3>
             </div>
             <input type="text" placeholder="Título" />
