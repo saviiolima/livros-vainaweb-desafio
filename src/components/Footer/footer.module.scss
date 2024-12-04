@@ -32,3 +32,24 @@ footer{
         color: white;
     }
 }
+
+@media(max-width: 1000px){
+    .boxMedia{
+        nav{
+            width: 250px;
+        }
+    }
+}
+
+@media(max-width: 488px){
+    .boxMedia{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .boxLayout{
+        p{
+            text-align: center;
+        }
+    }
+}

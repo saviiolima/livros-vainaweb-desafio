@@ -9,11 +9,15 @@ export default function Doados() {
         <section className={S.boxLivros}>
           <article>
             <img src={booksdoados} alt="livro o protagonista" />
-            <div>
-              <h3>O protagonista</h3>
-              <p>Susanne Andrade</p>
-              <p>Ficção</p>
-            </div>
+            <h3>O protagonista</h3>
+            <p>Susanne Andrade</p>
+            <p>Ficção</p>
+          </article>
+          <article>
+            <img src={booksdoados} alt="livro o protagonista" />
+            <h3>O protagonista</h3>
+            <p>Susanne Andrade</p>
+            <p>Ficção</p>
           </article>
         </section>
       </section>

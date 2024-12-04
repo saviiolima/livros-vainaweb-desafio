@@ -62,7 +62,6 @@ input{
 
 @media (max-width: 1170px) {
   .boxLogo{
-    border: solid 2px red;
     h1{
       font-size: 1.7vw;
     }
@@ -72,7 +71,6 @@ input{
   }
 
   .boxNav{
-    border: solid 2px blue;
     ul{
       font-size: 1.6vw;
     }
@@ -86,4 +84,42 @@ input{
       }
     }
     }
+}
+
+@media(max-width: 760px){
+  header{
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .boxDiv{
+    display: none;
+  }
+
+  .boxLogo{
+    width: 100%;
+    justify-content: space-evenly;
+    h1{
+      font-size: 22px;
+    }
+    img{
+      width: 50px;
+    }
+  }
+
+  .boxNav{
+    width: 100%;
+    ul{
+      font-size: 20px;
+    }
+  }
+}
+
+@media(max-width: 380px){
+  .boxNav{
+    ul{
+      font-size: 18px;
+    }
+  }
 }

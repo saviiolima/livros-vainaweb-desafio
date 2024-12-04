@@ -28,7 +28,7 @@ form{
         color: rgba(0, 86, 149, 1);
     }
     input{
-        width: 30vh;
+        width: 80%;
         height: 5vh;
         border-radius: 10px;
         border: solid 2px rgba(0, 86, 149, 1);
@@ -42,11 +42,44 @@ form{
 
 input:nth-child(6){
     border: solid 2px ;
-    width: 10vw;
+    width: 40%;
     height: 6vh;
     padding-left: 0;
     background-color: rgba(0, 86, 149, 1);
     color: white;
     cursor: pointer;
     font-size: 20px;
+}
+
+@media(max-width: 1080){
+    form{
+        width: 350px;
+    }
+}
+
+@media(max-width: 660px){
+    .boxDoar{
+        height: 90vh;
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    .boxPrincipal{
+        height: auto;
+    }
+}
+
+@media(max-width: 460px){
+    form{
+        width: 75vh;
+        div{
+            img{
+                width: 14vw;
+            }
+            h3{
+                font-size: 4.5;
+            }
+        }
+    }
 }
